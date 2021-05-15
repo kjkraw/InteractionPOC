@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion"[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+    modId="interactionpoc"
+    version="0.0.0.0"
+    displayName="Interaction POC"
+    authors="Kuy Krawczeniuk"
+    descrioption='''
+    This mod is a proof of concept for simulating human interpersonal interaction with AI systems. In this mod, I will
+    experiment with AI systems in the hopes of having real-world interpersonal behaviors emerge including conflicts,
+    problem solving, and emotional displays. At this point, the idea is fresh. It will develop with time.
+    '''
+
+    [[dependencies.interactionpoc]]
+        modId="forge"
+        mandatory=true
+        versionRange="[36,)"
+        ordering="NONE"
+        side="BOTH"
+
+    [[dependencies.interactionpoc]]
+        modId="minecraft"
+        mandatory=true
+        versionRange="[1.16.5]"
+        ordering="NONE"
+        side="BOTH"
+
