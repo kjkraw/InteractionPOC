@@ -15,7 +15,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
-@Mod("interactonpoc")
+@Mod("interactionpoc")
 public class InteractionMod {
     // Define constants.
     public static final String MODID = "interactionpoc";
